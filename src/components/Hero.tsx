@@ -40,8 +40,8 @@ const Hero = () => {
               x="50"
               y="50"
               fill={siteConfig.accentColor}
-              font-family="monospace"
-              font-size="24"
+              fontFamily="monospace"
+              fontSize="24"
               transform="rotate(-15)"
             >
               &lt;/&gt;
@@ -50,8 +50,8 @@ const Hero = () => {
               x="150"
               y="100"
               fill={siteConfig.accentColor}
-              font-family="monospace"
-              font-size="20"
+              fontFamily="monospace"
+              fontSize="20"
               transform="rotate(10)"
             >
               {}
@@ -60,8 +60,8 @@ const Hero = () => {
               x="250"
               y="80"
               fill={siteConfig.accentColor}
-              font-family="monospace"
-              font-size="18"
+              fontFamily="monospace"
+              fontSize="18"
               transform="rotate(-5)"
             >
               =&gt;
@@ -70,8 +70,8 @@ const Hero = () => {
               x="100"
               y="200"
               fill={siteConfig.accentColor}
-              font-family="monospace"
-              font-size="22"
+              fontFamily="monospace"
+              fontSize="22"
               transform="rotate(15)"
             >
               []
@@ -80,8 +80,8 @@ const Hero = () => {
               x="300"
               y="180"
               fill={siteConfig.accentColor}
-              font-family="monospace"
-              font-size="20"
+              fontFamily="monospace"
+              fontSize="20"
               transform="rotate(-10)"
             >
               &lt;&gt;
@@ -90,8 +90,8 @@ const Hero = () => {
               x="200"
               y="250"
               fill={siteConfig.accentColor}
-              font-family="monospace"
-              font-size="24"
+              fontFamily="monospace"
+              fontSize="24"
               transform="rotate(5)"
             >
               ()
@@ -100,8 +100,8 @@ const Hero = () => {
               x="50"
               y="320"
               fill={siteConfig.accentColor}
-              font-family="monospace"
-              font-size="18"
+              fontFamily="monospace"
+              fontSize="18"
               transform="rotate(-8)"
             >
               ::
@@ -110,8 +110,8 @@ const Hero = () => {
               x="350"
               y="300"
               fill={siteConfig.accentColor}
-              font-family="monospace"
-              font-size="22"
+              fontFamily="monospace"
+              fontSize="22"
               transform="rotate(12)"
             >
               ==
@@ -120,8 +120,8 @@ const Hero = () => {
               x="150"
               y="350"
               fill={siteConfig.accentColor}
-              font-family="monospace"
-              font-size="20"
+              fontFamily="monospace"
+              fontSize="20"
               transform="rotate(-15)"
             >
               ++
@@ -130,8 +130,8 @@ const Hero = () => {
               x="250"
               y="370"
               fill={siteConfig.accentColor}
-              font-family="monospace"
-              font-size="24"
+              fontFamily="monospace"
+              fontSize="24"
               transform="rotate(8)"
             >
               ;
