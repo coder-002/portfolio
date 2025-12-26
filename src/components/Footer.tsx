@@ -21,7 +21,7 @@ const Footer = () => {
                   href={`mailto:${siteConfig.social.email}`}
                   aria-label="Email"
                   className="text-gray-600 transition-colors duration-300 hover:text-(--accent-color)"
-                //   style={`--accent-color: ${siteConfig.accentColor}`}
+                  //   style={`--accent-color: ${siteConfig.accentColor}`}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -30,9 +30,9 @@ const Footer = () => {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="h-6 w-6"
                   >
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -46,7 +46,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
                   className="text-gray-600 transition-colors duration-300 hover:text-(--accent-color)"
-                //   style={`--accent-color: ${siteConfig.accentColor}`}
+                  //   style={`--accent-color: ${siteConfig.accentColor}`}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -55,9 +55,9 @@ const Footer = () => {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="h-6 w-6"
                   >
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -74,7 +74,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   aria-label="Twitter"
                   className="text-gray-600 transition-colors duration-300 hover:text-(--accent-color)"
-                //   style={`--accent-color: ${siteConfig.accentColor}`}
+                  //   style={`--accent-color: ${siteConfig.accentColor}`}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -83,9 +83,9 @@ const Footer = () => {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="h-6 w-6"
                   >
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -108,9 +108,9 @@ const Footer = () => {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="h-6 w-6"
                   >
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -177,7 +177,7 @@ const Footer = () => {
               <path
                 d="M0 50 Q 25 40, 50 50 T 100 50"
                 stroke="currentColor"
-                stroke-width="0.5"
+                strokeWidth="0.5"
                 fill="none"
                 opacity="0.4"
               ></path>

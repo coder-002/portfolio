@@ -148,7 +148,7 @@ const Hero = () => {
           fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)"
           width="100%"
           height="100%"
-          stroke-width={0}
+          strokeWidth={0}
         ></rect>
       </svg>
       <div className="h-full mx-auto p-8 sm:p-12 md:p-24 flex items-center">
@@ -181,9 +181,9 @@ const Hero = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -207,9 +207,9 @@ const Hero = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8"
             >
               <>
@@ -238,9 +238,9 @@ const Hero = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8"
             >
               <>
@@ -266,9 +266,9 @@ const Hero = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8"
             >
               <>

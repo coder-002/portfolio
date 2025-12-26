@@ -49,9 +49,9 @@ const Project = () => {
                                 viewBox="0 0 24 24"
                               >
                                 <path
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
-                                  stroke-width="2"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth="2"
                                   d="M7 17L17 7M17 7H7M17 7V17"
                                 />
                               </svg>
