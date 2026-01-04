@@ -23,7 +23,7 @@ export const siteConfig = {
     {
       name: "Portfolio Website",
       description:
-        "A real-time chat application that allows users to send and receive messages instantly, supporting one-on-one conversations, with features like message notifications, media sharing, and a user-friendly interface",
+        "A clean and interactive portfolio highlighting projects, skills, and achievements.",
       link: "https://markoshprajapati.com.np/",
       skills: ["React", "Tailwind", "Spline"],
     },

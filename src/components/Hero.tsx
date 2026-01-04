@@ -152,12 +152,12 @@ const Hero = () => {
           strokeWidth={0}
         ></rect>
       </svg>
-      <div className="h-full mx-auto p-8 sm:p-12 md:p-24 flex items-center">
-        <div>
+      <div className="h-full mx-auto p-8 sm:p-12 md:p-24 flex flex-col-reverse md:flex-row items-center">
+        <div className="md:w-1/2">
           <h2 className="text-pretty text-xl sm:text-2xl md:text-5xl font-bold tracking-tight text-gray-700 animate-fade-in">
             Hello! 👋
           </h2>
-          <h1 className="mt-6 sm:mt-8 md:mt-10 text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight text-gray-800 animate-fade-in animation-delay-200">
+          <h1 className="mt-6 sm:mt-8 md:mt-10 text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-gray-800 animate-fade-in animation-delay-200">
             I'm{" "}
             <span style={{ color: siteConfig.accentColor }}>
               {siteConfig.name}
@@ -169,15 +169,16 @@ const Hero = () => {
         </div>
         <div
           className="
-           w-[280px] h-[280px]
-           sm:w-[400px] sm:h-[400px]
-           md:w-[600px] md:h-[600px]
-            ml-auto
-          "
+      w-[280px] h-[280px]
+      sm:w-[400px] sm:h-[400px]
+      md:w-[600px] md:h-[600px]
+      mt-8 md:mt-0 md:ml-auto
+    "
         >
           <Spline scene="https://prod.spline.design/fIAt-HmQkUzUIfRs/scene.splinecode" />
         </div>
       </div>
+
       <div className="absolute bottom-0 left-0 right-0 p-8 sm:p-12 md:p-24 flex gap-x-4 sm:gap-x-6 md:gap-x-8 text-gray-700 animate-fade-in animation-delay-600">
         {siteConfig.social?.email && (
           <a
