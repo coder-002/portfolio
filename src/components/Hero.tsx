@@ -1,4 +1,5 @@
 import { siteConfig } from "../config";
+import Spline from "@splinetool/react-spline";
 
 const Hero = () => {
   return (
@@ -165,6 +166,16 @@ const Hero = () => {
           <p className="mt-4 sm:mt-6 md:mt-8 text-pretty text-base sm:text-lg md:text-xl/8 font-medium text-gray-600 animate-fade-in animation-delay-400">
             {siteConfig.title}
           </p>
+        </div>
+        <div
+          className="
+           w-[280px] h-[280px]
+           sm:w-[400px] sm:h-[400px]
+           md:w-[600px] md:h-[600px]
+            ml-auto
+          "
+        >
+          <Spline scene="https://prod.spline.design/fIAt-HmQkUzUIfRs/scene.splinecode" />
         </div>
       </div>
       <div className="absolute bottom-0 left-0 right-0 p-8 sm:p-12 md:p-24 flex gap-x-4 sm:gap-x-6 md:gap-x-8 text-gray-700 animate-fade-in animation-delay-600">

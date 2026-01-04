@@ -1,19 +1,39 @@
+import { useEffect, useState } from "react";
 import { siteConfig } from "../config";
 
 const Header = () => {
-  const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
-  const hasExperience =
-    siteConfig.experience && siteConfig.experience.length > 0;
-  const hasEducation = siteConfig.education && siteConfig.education.length > 0;
+  const [scrolled, setScrolled] = useState(false);
+
+  const hasProjects = siteConfig.projects?.length > 0;
+  const hasExperience = siteConfig.experience?.length > 0;
+  const hasEducation = siteConfig.education?.length > 0;
+
+  useEffect(() => {
+    const onScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
     <header
       id="header"
-      className={`fixed top-0 left-0 right-0 z-50 hidden md:block transition-all duration-300 
-      `}
+      className="fixed top-6 left-0 right-0 z-50 hidden md:flex justify-center"
     >
-      <nav className="max-w-7xl mx-auto px-8 py-4">
-        <ul className="flex items-center gap-8 justify-center">
+      <nav
+        className={`
+          px-10 py-4
+          transition-all duration-300
+          ${
+            scrolled
+              ? "bg-white/60 backdrop-blur-xl shadow-lg border border-white/30 rounded-full"
+              : "bg-transparent"
+          }
+        `}
+      >
+        <ul className="flex items-center gap-8">
           <li>
             <a
               href="#about"
@@ -22,6 +42,7 @@ const Header = () => {
               About
             </a>
           </li>
+
           {hasProjects && (
             <li>
               <a
@@ -32,6 +53,7 @@ const Header = () => {
               </a>
             </li>
           )}
+
           {hasExperience && (
             <li>
               <a
@@ -42,6 +64,7 @@ const Header = () => {
               </a>
             </li>
           )}
+
           {hasEducation && (
             <li>
               <a
