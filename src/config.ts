@@ -58,7 +58,7 @@ export const siteConfig = {
     {
       school: "Jaya Multiple Campus(Tribhuwan University)",
       degree: "Bachelor in Computer Application",
-      dateRange: "2018 - 2013",
+      dateRange: "2018 - 2023",
       achievements: ["Graduated with 3.42 GPA"],
     },
   ],
